@@ -48,6 +48,7 @@ streamlit run app.py
 
 
 ## 🎬 Demo
-demo.mov
+<img width="2020" height="1544" alt="Screenshot 2025-07-15 at 16 22 54" src="https://github.com/user-attachments/assets/6f09339d-d22a-4918-87d0-1fe94b9f5757" />
+
 
 
