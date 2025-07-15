@@ -48,7 +48,7 @@ streamlit run app.py
 
 
 ## 🎬 Demo
-<img width="1994" height="1546" alt="Screenshot 2025-07-15 at 16 33 31" src="https://github.com/user-attachments/assets/ec85dc8f-53ad-43a3-9dd3-74ecf5dcd228" />
+<img width="2026" height="1524" alt="Screenshot 2025-07-15 at 16 38 28" src="https://github.com/user-attachments/assets/15117090-b8e7-46f5-b839-0659b6a8d4d5" />
 
 
 
