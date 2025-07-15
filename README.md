@@ -38,7 +38,7 @@ uvicorn app.main:app --reload
 
 5️⃣ Run the frontend (Streamlit)
 ```bash
-Open a new terminal:
+Open a new terminal(make sure to use the same environemnt as backend):
 cd Frontend
 streamlit run app.py
 ```
