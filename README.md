@@ -17,11 +17,11 @@ cd LLM_SUMMARIZER
 ```
 
 2️⃣ Install dependencies
-
+```bash
 python -m venv venv
 source venv/bin/activate(Mac)     # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 3️⃣ Download the model
 cd models
 python download_model.py
