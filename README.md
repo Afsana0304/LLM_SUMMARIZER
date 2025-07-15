@@ -6,8 +6,9 @@ The project features a FastAPI backend for serving the model, a Streamlit fronte
 
 - 🔄 FastAPI backend for robust, scalable API
 - 📝 Streamlit frontend for user-friendly input/output
-- 🤗 Model loading from local directory (downloaded via script)
-
+- 🤗 Model loading from local directory (downloaded via script).
+- - This project uses the `google/flan-t5-base` model from Hugging Face for summarization (but can be swapped in any compatible model)
+    
 ## 🚀 Getting Started
 
 1️⃣ Clone the repo
@@ -25,7 +26,8 @@ pip install -r requirements.txt
 3️⃣ Download the model
 ```bash
 cd models
-python download_model.py
+python download_model.py    
+Note: The repo_id in download_model.py can be changed to use any summarization model from Hugging Face.
 ```
 
 4️⃣ Run the backend (FastAPI)
