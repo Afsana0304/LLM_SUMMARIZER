@@ -11,7 +11,7 @@ The project features a FastAPI backend for serving the model, a Streamlit fronte
 ## 🚀 Getting Started
 
 1️⃣ Clone the repo
-
+```bash
 git clone https://github.com/Afsana0304/LLM_SUMMARIZER.git
 cd LLM_SUMMARIZER 
 
@@ -33,6 +33,7 @@ uvicorn app.main:app --reload
 Open a new terminal:
 cd Frontend
 streamlit run app.py
+```
 
 🔖 Notes
 🗂️ Model files are gitignored—use models/download_model.py to fetch them.
