@@ -23,14 +23,19 @@ source venv/bin/activate(Mac)     # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 3️⃣ Download the model
+```bash
 cd models
 python download_model.py
+```
 
 4️⃣ Run the backend (FastAPI)
+```bash
 cd Backend
 uvicorn app.main:app --reload
+```
 
 5️⃣ Run the frontend (Streamlit)
+```bash
 Open a new terminal:
 cd Frontend
 streamlit run app.py
