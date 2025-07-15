@@ -47,6 +47,7 @@ streamlit run app.py
 🗂️ Model files are gitignored—use models/download_model.py to fetch them.
 
 
-
+## 🎬 Demo
+demo.mov
 
 
