@@ -25,7 +25,7 @@ def generate_summary(text: str) -> str:
     outputs = model.generate(
         input_ids,
         max_length=200,  # Adjust for shorter/longer summaries 
-        min_length=50,   # Adjust for shorter/longer summaries 
+        min_length=30,   # Adjust for shorter/longer summaries 
         do_sample=False,
         num_beams= 3,
         num_return_sequences=1,
