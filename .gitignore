@@ -1,0 +1,27 @@
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Model weights and tokenizer/config files 
+models/*/pytorch_model.bin
+models/*/model.safetensors
+models/*/tf_model.h5
+models/*/flax_model.msgpack
+models/*/tokenizer.json
+models/*/config.json
+models/Falconsai-local/
+models/flan-t5-base-local/
+
+# Streamlit
+.streamlit/
+
+
+# OS/system files
+.DS_Store
+Thumbs.db
