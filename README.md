@@ -14,7 +14,7 @@ The project features a FastAPI backend for serving the model, a Streamlit fronte
 
 ```bash
 git clone https://github.com/Afsana0304/LLM_SUMMARIZER.git
-cd LLM_SUMMARIZER 
+cd LLM_SUMMARIZER ```
 
 2️⃣ Install dependencies
 
